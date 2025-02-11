@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>조 나누기</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="left-area">
+            <div id="input-area">
+                <textarea name="factor" id="input"></textarea>
+            </div>
+            <div id="option-area">
+                <div id="explanation-area">
+                    &lt; 여기에 붙여넣기
+                    <br><br>
+                    ,로 요소를 구분해서 붙여넣어주세요
+                    <br><br>
+                    예&#41; 사과,바나나,딸기
+                </div>
+                <div id="option-input-area">
+                    나눌 조 개수<br><input type="number" id="number-of-group" min="2" value="3">
+                </div>
+                <button id="mix-button">GO!</button>
+            </div>
+        </div>
+        <div id="right-area">
+            <div id="table"></div>
+        </div>
+    </div>
+</body>
+
+</html>
