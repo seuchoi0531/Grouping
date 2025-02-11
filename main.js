@@ -7,6 +7,8 @@ $(document).ready(function () {
     let factorArray = [];
     mixButton.addEventListener("click", showTable);
     function showTable() {
+        table.innerHTML = '';
+        factorArray = [];
         let inputFactor = input.value;
         let tmp = '';
         for (let i = 0; i < inputFactor.length; i++) {
